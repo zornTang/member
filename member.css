@@ -494,7 +494,7 @@ body{
 	height: 2000px;
 }
 #ra{
-	height: 1050px;
+	height: 1400px;
 }
 
 .divide_line{
@@ -525,12 +525,16 @@ body{
 	top: 75%;
 }
 #dl5_1{
-	top: 33.3%;
+	top: 25%;
 	/* top: 50%; */
 }
 #dl5_2{
-	top: 66.7%;
+	top: 50%;
 }
+#dl5_3{
+	top: 75%;
+}
+
 
 .pdinfo{
 	width: 90%;
@@ -611,13 +615,17 @@ body{
 
 #cy,#ra1{
 	/* height: 33%; */
-	top: 16.7%;
+	top: 12.5%;
 }
 #lyt,#ra2{
-	top: 50%;
+	top: 37.5%;
 }
 #ql,#ra3{
-	top: 83.3%;
+	top: 62.6%;
+}
+
+#xxp,#ra4{
+	top: 87.5%;
 }
 
 
