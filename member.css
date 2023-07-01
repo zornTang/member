@@ -494,7 +494,7 @@ body{
 	height: 2000px;
 }
 #ra{
-	height: 1400px;
+	height: 1750px;
 }
 
 .divide_line{
@@ -525,14 +525,17 @@ body{
 	top: 75%;
 }
 #dl5_1{
-	top: 25%;
+	top: 20%;
 	/* top: 50%; */
 }
 #dl5_2{
-	top: 50%;
+	top: 40%;
 }
 #dl5_3{
-	top: 75%;
+	top: 60%;
+}
+#dl5_4{
+	top: 80%;
 }
 
 
@@ -615,17 +618,20 @@ body{
 
 #cy,#ra1{
 	/* height: 33%; */
-	top: 12.5%;
+	top: 10%;
 }
 #lyt,#ra2{
-	top: 37.5%;
+	top: 30%;
 }
 #ql,#ra3{
-	top: 62.6%;
+	top: 50%;
 }
 
 #xxp,#ra4{
-	top: 87.5%;
+	top: 70%;
+}
+#zfy,#ra5{
+	top: 90%;
 }
 
 
