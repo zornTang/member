@@ -396,16 +396,7 @@ body{
 
 
 
-.contt{
-	width: 90%;
-	/* height: 80%; */
-	border: 2px solid purple;
-	position: relative;
-	border-radius: 6px;
-	margin: auto;
-	
-	/* display: none; */
-}
+
 .div1{
 	float: left;
 	width: 40%;
@@ -468,6 +459,38 @@ body{
 	font-style: italic
 }
 
+.contt{
+	width: 90%;
+	/* height: 80%; */
+	border: 2px solid purple;
+	position: relative;
+	border-radius: 6px;
+	margin: auto;	
+	/* display: none; */
+}
+.info{
+	height: 350px;
+	position: relative;
+
+}
+.infoimg{
+	float: left;
+	width: 22%;
+	border-radius: 3px;
+	transform: translate(-50%,-50%);
+	position: relative;
+	margin-left: 18%;
+	top: 50%;
+	/* margin-right: 40%;
+	margin-top: 5%; */
+}
+.infotext{
+	width: 115%;
+	left: 8%;
+	height: 350px;
+	position: relative;
+	
+}
 .div3{
 	float: left;
 	width: 30%;
@@ -476,26 +499,21 @@ body{
 	/* display: inline; */
 	
 }
-.div4{
-	width: 69%;
-	height: 100%;
-	float: right;
-	font-family: "Arial";
-	position: relative;
-	/* display: inline; */
-}
-#postdoc{
+
+/*400px*n */
+/* #postdoc{	
 	height: 800px;
 }
-#phdc{
+
+#phdc{	
 	height: 1200px;
 }
 #postg{
 	height: 2000px;
 }
-#ra{
+#ra{	
 	height: 1750px;
-}
+} */
 
 .divide_line{
 	position: absolute ;
@@ -541,18 +559,19 @@ body{
 
 .pdinfo{
 	width: 90%;
-	position: absolute;
+	position: relative;
 	transform:translate(-50%,-50%);
 	left: 50%;
+	height: 350px;
 }
 .info_w{
-	width: 90%;
+	/* width: 90%; */
 	position: absolute;
 	transform:translate(-50%,-50%);
 	left: 50%;
-	top: 50%;
+	top: 48%;
 }
-.pdinfo p{
+.infotext p{
 	list-style: none;
 	text-align: left;
 	font-size: 16px;
@@ -561,45 +580,38 @@ body{
 	color: grey;
 	left: 5%;
 }
-.pdinfo p:first-child{
+.infotext p:first-child{
 	font-size: 24px;
 	/* margin-top: 16px; */
 	margin-bottom: 10px;
 	color: #000;
 	text-align: left;
 }
-.pdinfo p:nth-child(2){
+.infotext p:nth-child(2){
 	color: #000;
 	line-height: 16px;
 }
-.div3 img{
-	position: absolute ;
-	border-radius: 3px;
-	transform:translate(-50%,-50%);
-	left: 60%;
-	width: 80%;
 
-}
 	
 
-#zxp, #pdinfo1{	
+.pdinfo1{	
 	
 	top: 25.5%;
 }
-#zl,#pdinfo2{	
+.pdinfo2{	
 	top: 75%;
 }
 
-#lxb,#phdc1{		
+.phdc1{		
 	top: 16.7%;
 }
-#ljy,#phdc2{
+.phdc2{
 	top:50%;
 }
-#zyl,#phdc3{
+.phdc3{
 	top: 83%;
 }
-#lww, #postg1{
+.postg1{
 	/* height: 24.5%; */
 	top: 10%;
 }
