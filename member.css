@@ -475,11 +475,13 @@ body{
 }
 .infoimg{
 	float: left;
-	width: 22%;
+	/* width: 22%; */
+	height: 90%;
 	border-radius: 3px;
 	transform: translate(-50%,-50%);
 	position: relative;
 	margin-left: 18%;
+	margin-right: 25%;
 	top: 50%;
 	/* margin-right: 40%;
 	margin-top: 5%; */
