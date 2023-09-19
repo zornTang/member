@@ -385,7 +385,7 @@ body{
 	position: relative;
 	outline: none;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 20px;
   }
   .btn:hover{
 	cursor: pointer;
@@ -576,7 +576,7 @@ body{
 }
 .infotext p{
 	list-style: none;
-	text-align: left;
+	text-align: justify;
 	font-size: 16px;
 	line-height: 24px;
 	/* margin: 16px 30px; */
