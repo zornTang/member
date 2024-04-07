@@ -371,7 +371,7 @@ body{
 	text-align: center;
 	line-height: 40px;
 	position: relative;
-	margin: 5%;
+	margin: 10%;
 	/* z-index: 99; */
 
 	border-width: 3px;
@@ -386,7 +386,7 @@ body{
 	position: relative;
 	outline: none;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 30px;
   }
 
   .btn:hover{
