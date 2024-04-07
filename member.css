@@ -366,7 +366,7 @@ body{
 .btn {
 	list-style: none;
 	float: left;
-	width: 14%;
+	width: auto;
 	height: 100%;
 	text-align: center;
 	line-height: 40px;
