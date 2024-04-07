@@ -476,7 +476,7 @@ body{
 }
 .column{
 	flex: 1;
-	padding: auto;
+	padding: 5px;
 	box-sizing: border-box;
 }
 
