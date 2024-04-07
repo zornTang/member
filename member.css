@@ -471,6 +471,15 @@ body{
 	padding-top: 5px;	
 	/* display: none; */
 }
+.container{
+	display: flex;
+}
+.column{
+	flex: 1;
+	padding: auto;
+	box-sizing: border-box;
+}
+
 .info{
 	height: 350px;
 	position: relative;
