@@ -471,9 +471,11 @@ body{
 	padding-top: 5px;	
 	/* display: none; */
 }
+
 .container{
 	display: flex;
 }
+
 .column{
 	flex: 1;
 	padding: 5px;
