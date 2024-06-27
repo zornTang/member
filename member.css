@@ -403,7 +403,7 @@ body{
 	float: left;
 	width: 40%;
 	height: 100%;
-	position: relative;
+	position: absolute;
 	/* display: inline; */
 	
 }
