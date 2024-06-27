@@ -416,7 +416,7 @@ body{
 	/* display: inline; */
 }
 #prof{
-	height: 580px;
+	height: auto;
 }
 #prof img{
 	position: absolute ;
