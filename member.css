@@ -407,6 +407,11 @@ body{
 	/* display: inline; */
 	
 }
+.div1 img{
+	width: 95%;
+	height: 95%;
+	object-fit: contain;
+}
 .div2{
 	width: 50%;
 	height: 100%;
@@ -499,13 +504,6 @@ body{
 	top: 50%;
 	/* margin-right: 40%;
 	margin-top: 5%; */
-}
-.infoimgzhang{
-	max-width: auto;
-	max-height: 95%;
-	width: auto;
-	height: auto;
-	display: block;
 }
 .infotext{
 	width: 115%;
