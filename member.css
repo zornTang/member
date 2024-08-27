@@ -500,6 +500,11 @@ body{
 	/* margin-right: 40%;
 	margin-top: 5%; */
 }
+.infoimgzhang{
+	float: left;
+	width: 100%;
+	height: auto;
+}
 .infotext{
 	width: 115%;
 	left: 8%;
