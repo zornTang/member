@@ -516,7 +516,7 @@ body{
 	position: relative;
 	font-weight: bold;
 }
-/* Alumni部分的特殊样式 - 新增 */
+/* Alumni部分的特殊样式 - 修复版 */
 #alumni {
     width: 100%;
     min-height: 400px;
@@ -536,35 +536,49 @@ body{
     overflow-wrap: break-word;
 }
 
+/* 统一所有p元素的基础样式 */
 #alumni .infotext p {
-    font-size: 14px;
-    line-height: 20px;
-    margin: 8px 0;
+    font-size: 16px !important;
+    line-height: 32px !important;
+    margin: 0 !important;
+    padding: 8px 0;
     word-break: break-word;
     text-align: left;
+    font-family: "Arial", sans-serif;
+    color: #333 !important;
+    border-bottom: 1px solid #f0f0f0;
 }
 
+/* 标题行样式 */
 #alumni .infotext p:first-child {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 12px;
-    text-align: center;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    background-color: #f8f9fa;
+    text-align: center !important;
+    border-bottom: 2px solid #ddd !important;
+    margin-bottom: 0 !important;
 }
 
+/* 取消第二个p元素的特殊样式 */
 #alumni .infotext p:nth-child(2) {
-    color: #000;
-    line-height: 18px;
+    color: #333 !important;
+    line-height: 32px !important;
+    font-size: 16px !important;
 }
 
-#alumni .column:first-child {
+/* 添加列分隔线 */
+#alumni .column:not(:last-child) {
     border-right: 1px solid #ddd;
 }
 
-#alumni .column:nth-child(2) {
-    border-right: 1px solid #ddd;
+/* 鼠标悬停效果 */
+#alumni .infotext p:not(:first-child):hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
 }
 
+/* 响应式设计 */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -573,11 +587,20 @@ body{
     #alumni .column {
         border-right: none !important;
         border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+    
+    #alumni .column:last-child {
+        border-bottom: none;
     }
     
     #alumni .infotext p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 14px !important;
+        line-height: 28px !important;
+    }
+    
+    #alumni .infotext p:first-child {
+        font-size: 16px !important;
     }
 }
 .div3{
@@ -1012,4 +1035,5 @@ body{
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
+
 
