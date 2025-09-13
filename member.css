@@ -479,12 +479,16 @@ body{
 
 .container{
 	display: flex;
+	width: 100%;
+	gap: 20px; /* 新增 */
+	box-sizing: border-box; /* 新增 */
 }
 
 .column{
 	flex: 1;
-	padding: 5px;
+	padding: 10px; /* 从5px改为10px */
 	box-sizing: border-box;
+	min-width: 0; /* 新增 */
 }
 
 .info{
@@ -511,7 +515,70 @@ body{
 	height: 350px;
 	position: relative;
 	font-weight: bold;
-	
+}
+/* Alumni部分的特殊样式 - 新增 */
+#alumni {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#alumni .infotext {
+    width: 100% !important;
+    left: 0 !important;
+    height: auto !important;
+    position: static !important;
+    font-weight: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#alumni .infotext p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 8px 0;
+    word-break: break-word;
+    text-align: left;
+}
+
+#alumni .infotext p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+#alumni .infotext p:nth-child(2) {
+    color: #000;
+    line-height: 18px;
+}
+
+#alumni .column:first-child {
+    border-right: 1px solid #ddd;
+}
+
+#alumni .column:nth-child(2) {
+    border-right: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    #alumni .column {
+        border-right: none !important;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #alumni .infotext p {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
 .div3{
 	float: left;
@@ -945,3 +1012,4 @@ body{
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
+
